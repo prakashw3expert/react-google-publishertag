@@ -1,0 +1,25 @@
+{
+  "_from": "google-publisher-tag@latest",
+  "_id": "google-publisher-tag@0.2.4",
+  "_inCache": true,
+  "_location": "/google-publisher-tag",
+  "_nodeVersion": "6.2.2",
+  "_shasum": "d178cfe005f4862e9756173efe18eb88dde0610e",
+  "_shrinkwrap": null,
+  "_spec": "google-publisher-tag",
+  "_where": "/var/www/html/reactJs/hello-world",
+  "dependencies": {
+    "keymirror": "^0.1.1"
+  },
+  "main": "./dist/index.js",
+  "name": "google-publisher-tag",
+  "private": false,
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "build": "babel-node ./node_modules/gulp/bin/gulp.js build",
+    "eslint": "node ./node_modules/eslint/bin/eslint.js --ext .js,.jsx .",
+    "prepublish": "npm run build",
+    "test": "babel-node ./node_modules/gulp/bin/gulp.js test"
+  },
+  "version": "0.2.4"
+}
